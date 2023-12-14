@@ -87,7 +87,7 @@ public class TechJobs {
 
         do {
 
-            System.out.println("\r" + menuHeader);
+            System.out.println("\n" + menuHeader);
 
             // Print available choices
             for (int j = 0; j < choiceKeys.length; j++) {
@@ -121,8 +121,7 @@ public class TechJobs {
     private static void printJobs(ArrayList<HashMap<String, String>> someJobs) {
         if (someJobs.isEmpty())
         {
-            System.out.println("No Results");
-
+            System.out.print("No Results");
         }
 
             for (HashMap<String, String> job : someJobs) {
